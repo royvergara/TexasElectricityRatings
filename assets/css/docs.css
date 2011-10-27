@@ -12,7 +12,7 @@ body {
   position: relative;
 }
 section {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 section > .row {
   margin-bottom: 10px;
@@ -32,6 +32,17 @@ section > .row {
      -moz-box-shadow: inset 0 30px 30px rgba(0,0,0,.3);
 /*          box-shadow: inset 0 10px 30px rgba(0,0,0,.3);
 */}
+.jumbotron .inner.sub {
+	padding: 20px 0;
+}
+	.jumbotron .inner.sub h1 { 
+		font-size: 26px; 
+		margin-bottom: 0;
+		text-align: left;
+	}
+	.jumbotron .inner.sub .cta { 
+		height: auto;
+	}
 .jumbotron h1,
 .jumbotron p {
   margin-bottom: 9px;
@@ -346,6 +357,10 @@ ul.social-nav {
 		float: left;
 		margin-left: 10px;
 	}
+			ul.social-nav li label {
+				float: none;
+			}
+	ul.social-nav.filter { margin-top: -5px; }
 
 /* Articles List
 -------------------------------------------------- */
