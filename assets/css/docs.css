@@ -360,7 +360,7 @@ ul.social-nav {
 			ul.social-nav li label {
 				float: none;
 			}
-	ul.social-nav.filter { margin-top: -5px; }
+	ul.social-nav.filter { margin: -5px 0 0; }
 
 /* Articles List
 -------------------------------------------------- */
